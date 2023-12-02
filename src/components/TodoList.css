@@ -1,0 +1,103 @@
+body {
+    font-family: Arial;
+    background-color: rgb(242, 251, 251);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .listMenu{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lister{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 500px;
+    max-height: 550px;
+    overflow-y: scroll;
+    padding: 10px;
+    background: #f3e4e4;
+    border: 3px solid blueviolet;
+    margin-bottom: 30px;
+  }
+  .lister ul{
+    padding: 0px;
+    margin: 0;
+    width: 100%;
+
+ 
+  }
+   .wrapper{
+     display: flex;
+    flex-direction: column;
+
+  }
+  .lister ul li {
+    background-color: #0b7dda;
+    padding: 10px;
+    width: 100%;
+    list-style: none;
+    margin:7px 0px;
+    color: white;
+
+  }
+  span img{
+    width: 22px;
+    height: 22px;
+    color: #0b7dda;
+    fill: red;
+  }
+  li span img:hover{
+    cursor: pointer;
+  }
+
+
+
+  /* wrapper form the CreateData Element  */
+.wrapper-form{
+  width: 50vw;
+  height: auto;
+  padding: 30px;
+  /* margin: 50px 0px; */
+  transform: translate(0%,50%);
+  background-color: rgb(211, 221, 217);
+  border: 3px solid goldenrod;
+  border-radius: 8px;
+}
